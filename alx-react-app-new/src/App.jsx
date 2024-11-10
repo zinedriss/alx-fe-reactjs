@@ -10,6 +10,7 @@ import UserProfile from "./components/UserProfile";
 import InlineStyling from "./components/InlineStyling";
 import StateHook from "./components/StateHook";
 import EffectHook from "./components/EffectHook";
+import Counter from "./components/Counter";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -22,6 +23,7 @@ function App() {
       <InlineStyling />
       <StateHook />
       <EffectHook />
+      <Counter />
       <Footer />
       <UserProfile name="Alice" age="25" bio="Loves hiking and photography" />
       <div>

@@ -25,7 +25,7 @@ const Search = () => {
       const data = await fetchAdvancedSearchResults(query);
       setResults(data.items || []);
     } catch (err) {
-      setError("Something went wrong. Please try again.");
+      setError("Looks like we cant find the user");
     } finally {
       setLoading(false);
     }
